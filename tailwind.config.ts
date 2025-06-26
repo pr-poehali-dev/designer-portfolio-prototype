@@ -73,15 +73,28 @@ export default {
           cyan: "#06B6D4",
           slate: "#64748B",
         },
+        // Bold yellow, red, black palette
+        bold: {
+          yellow: "#FBBF24", // Bright yellow
+          "yellow-light": "#FDE047", // Light yellow
+          "yellow-dark": "#D97706", // Dark yellow/orange
+          red: "#DC2626", // Bold red
+          "red-light": "#F87171", // Light red
+          "red-dark": "#991B1B", // Dark red
+          black: "#000000", // Pure black
+          "black-light": "#1F2937", // Light black/dark gray
+          "black-dark": "#111827", // Very dark black
+        },
       },
       backgroundImage: {
-        "gradient-creative":
-          "linear-gradient(135deg, #6366F1 0%, #8B5CF6 35%, #D946EF 70%, #F43F5E 100%)",
+        "gradient-bold":
+          "linear-gradient(135deg, #FBBF24 0%, #DC2626 50%, #000000 100%)",
         "gradient-hero":
-          "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #334155 100%)",
+          "linear-gradient(135deg, #000000 0%, #1F2937 50%, #111827 100%)",
         "gradient-card":
-          "linear-gradient(135deg, rgba(99,102,241,0.1) 0%, rgba(139,92,246,0.1) 50%, rgba(217,70,239,0.1) 100%)",
-        "gradient-accent": "linear-gradient(90deg, #06B6D4 0%, #10B981 100%)",
+          "linear-gradient(135deg, rgba(251,191,36,0.1) 0%, rgba(220,38,38,0.1) 50%, rgba(0,0,0,0.1) 100%)",
+        "gradient-accent": "linear-gradient(90deg, #FBBF24 0%, #DC2626 100%)",
+        "gradient-reverse": "linear-gradient(135deg, #DC2626 0%, #FBBF24 100%)",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],

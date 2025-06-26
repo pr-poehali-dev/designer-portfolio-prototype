@@ -5,13 +5,13 @@ const Hero = () => {
   return (
     <section className="min-h-screen bg-gradient-hero flex items-center justify-center relative overflow-hidden">
       {/* Floating background elements */}
-      <div className="absolute top-20 left-20 w-32 h-32 bg-creative-indigo/20 rounded-full blur-xl floating-element"></div>
+      <div className="absolute top-20 left-20 w-32 h-32 bg-bold-yellow/20 rounded-full blur-xl floating-element"></div>
       <div
-        className="absolute bottom-40 right-20 w-40 h-40 bg-creative-fuchsia/20 rounded-full blur-xl floating-element"
+        className="absolute bottom-40 right-20 w-40 h-40 bg-bold-red/20 rounded-full blur-xl floating-element"
         style={{ animationDelay: "2s" }}
       ></div>
       <div
-        className="absolute top-1/2 right-1/3 w-24 h-24 bg-creative-rose/20 rounded-full blur-xl floating-element"
+        className="absolute top-1/2 right-1/3 w-24 h-24 bg-bold-yellow/30 rounded-full blur-xl floating-element"
         style={{ animationDelay: "4s" }}
       ></div>
 
@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button
               size="lg"
-              className="bg-gradient-creative hover:scale-105 transition-transform duration-300 text-white border-0 px-8 py-4 text-lg font-semibold"
+              className="bg-gradient-bold hover:scale-105 transition-transform duration-300 text-white border-0 px-8 py-4 text-lg font-semibold"
             >
               Посмотреть проекты
               <Icon name="ArrowRight" className="ml-2" size={20} />
@@ -35,7 +35,7 @@ const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg"
+              className="border-bold-yellow/50 text-bold-yellow hover:bg-bold-yellow/10 px-8 py-4 text-lg"
             >
               Связаться со мной
               <Icon name="MessageCircle" className="ml-2" size={20} />
@@ -49,23 +49,23 @@ const Hero = () => {
             {
               icon: "Monitor",
               label: "Веб-дизайн",
-              color: "text-creative-cyan",
+              color: "text-bold-yellow",
             },
             {
               icon: "Palette",
               label: "Графический",
-              color: "text-creative-violet",
+              color: "text-bold-red",
             },
-            { icon: "Play", label: "Моушн", color: "text-creative-fuchsia" },
+            { icon: "Play", label: "Моушн", color: "text-bold-yellow-light" },
             {
               icon: "Package",
               label: "Продукты",
-              color: "text-creative-rose",
+              color: "text-bold-red-light",
             },
             {
               icon: "Home",
               label: "Интерьеры",
-              color: "text-creative-emerald",
+              color: "text-bold-yellow",
             },
           ].map((skill, index) => (
             <div

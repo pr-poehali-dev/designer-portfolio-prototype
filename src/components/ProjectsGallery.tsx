@@ -95,8 +95,8 @@ const ProjectsGallery = () => {
               onClick={() => setActiveCategory(category.id)}
               className={`transition-all duration-300 ${
                 activeCategory === category.id
-                  ? "bg-gradient-creative text-white"
-                  : "hover:border-creative-violet hover:text-creative-violet"
+                  ? "bg-gradient-bold text-white"
+                  : "hover:border-bold-red hover:text-bold-red"
               }`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -120,7 +120,7 @@ const ProjectsGallery = () => {
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-creative opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex items-center justify-center">
+                <div className="absolute inset-0 bg-gradient-bold opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex items-center justify-center">
                   <Icon name="ExternalLink" className="text-white" size={32} />
                 </div>
               </div>
@@ -133,7 +133,7 @@ const ProjectsGallery = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1 bg-gradient-creative text-white text-xs rounded-full"
+                      className="px-3 py-1 bg-gradient-accent text-white text-xs rounded-full"
                     >
                       {tag}
                     </span>
@@ -147,7 +147,7 @@ const ProjectsGallery = () => {
         <div className="text-center mt-12">
           <Button
             size="lg"
-            className="bg-gradient-creative hover:scale-105 transition-transform duration-300 text-white"
+            className="bg-gradient-bold hover:scale-105 transition-transform duration-300 text-white"
           >
             Посмотреть все проекты
             <Icon name="ArrowRight" className="ml-2" size={20} />

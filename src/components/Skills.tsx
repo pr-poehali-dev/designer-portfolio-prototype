@@ -6,34 +6,34 @@ const Skills = () => {
       title: "Дизайн инструменты",
       icon: "Palette",
       skills: [
-        { name: "Figma", level: 95, color: "bg-creative-violet" },
+        { name: "Figma", level: 95, color: "bg-bold-red" },
         {
           name: "Adobe Creative Suite",
           level: 90,
-          color: "bg-creative-fuchsia",
+          color: "bg-bold-yellow",
         },
-        { name: "Sketch", level: 85, color: "bg-creative-cyan" },
-        { name: "Blender", level: 80, color: "bg-creative-rose" },
+        { name: "Sketch", level: 85, color: "bg-bold-red-light" },
+        { name: "Blender", level: 80, color: "bg-bold-yellow-dark" },
       ],
     },
     {
       title: "Разработка",
       icon: "Code",
       skills: [
-        { name: "HTML/CSS", level: 90, color: "bg-creative-emerald" },
-        { name: "JavaScript", level: 85, color: "bg-creative-amber" },
-        { name: "React", level: 80, color: "bg-creative-cyan" },
-        { name: "Three.js", level: 75, color: "bg-creative-indigo" },
+        { name: "HTML/CSS", level: 90, color: "bg-bold-yellow" },
+        { name: "JavaScript", level: 85, color: "bg-bold-red" },
+        { name: "React", level: 80, color: "bg-bold-yellow-light" },
+        { name: "Three.js", level: 75, color: "bg-bold-red-dark" },
       ],
     },
     {
       title: "Специализации",
       icon: "Target",
       skills: [
-        { name: "UI/UX Дизайн", level: 95, color: "bg-creative-fuchsia" },
-        { name: "Брендинг", level: 90, color: "bg-creative-rose" },
-        { name: "Моушн дизайн", level: 85, color: "bg-creative-violet" },
-        { name: "3D Моделирование", level: 80, color: "bg-creative-cyan" },
+        { name: "UI/UX Дизайн", level: 95, color: "bg-bold-red" },
+        { name: "Брендинг", level: 90, color: "bg-bold-yellow" },
+        { name: "Моушн дизайн", level: 85, color: "bg-bold-red-light" },
+        { name: "3D Моделирование", level: 80, color: "bg-bold-yellow-dark" },
       ],
     },
   ];
@@ -56,7 +56,7 @@ const Skills = () => {
               style={{ animationDelay: `${categoryIndex * 0.2}s` }}
             >
               <div className="flex items-center mb-6">
-                <div className="p-3 bg-gradient-creative rounded-lg mr-4">
+                <div className="p-3 bg-gradient-bold rounded-lg mr-4">
                   <Icon name={category.icon} className="text-white" size={24} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800">
@@ -106,7 +106,7 @@ const Skills = () => {
             >
               <Icon
                 name={stat.icon}
-                className="text-creative-violet mb-4 mx-auto"
+                className="text-bold-red mb-4 mx-auto"
                 size={32}
               />
               <div className="text-3xl font-bold gradient-text mb-2">

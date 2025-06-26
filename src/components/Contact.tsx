@@ -26,10 +26,10 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: "Instagram", href: "#", color: "hover:text-pink-500" },
-    { icon: "Twitter", href: "#", color: "hover:text-blue-400" },
-    { icon: "Linkedin", href: "#", color: "hover:text-blue-600" },
-    { icon: "Github", href: "#", color: "hover:text-gray-900" },
+    { icon: "Instagram", href: "#", color: "hover:text-bold-red" },
+    { icon: "Twitter", href: "#", color: "hover:text-bold-yellow" },
+    { icon: "Linkedin", href: "#", color: "hover:text-bold-red" },
+    { icon: "Github", href: "#", color: "hover:text-bold-black" },
   ];
 
   return (
@@ -58,7 +58,7 @@ const Contact = () => {
                   </label>
                   <Input
                     placeholder="Ваше имя"
-                    className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
+                    className="bg-white/10 border-bold-yellow/30 text-white placeholder:text-white/60"
                   />
                 </div>
                 <div>
@@ -68,7 +68,7 @@ const Contact = () => {
                   <Input
                     type="email"
                     placeholder="your@email.com"
-                    className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
+                    className="bg-white/10 border-bold-yellow/30 text-white placeholder:text-white/60"
                   />
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                 </label>
                 <Input
                   placeholder="Тема сообщения"
-                  className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
+                  className="bg-white/10 border-bold-yellow/30 text-white placeholder:text-white/60"
                 />
               </div>
               <div>
@@ -88,13 +88,13 @@ const Contact = () => {
                 <Textarea
                   placeholder="Расскажите о вашем проекте..."
                   rows={5}
-                  className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
+                  className="bg-white/10 border-bold-yellow/30 text-white placeholder:text-white/60"
                 />
               </div>
               <Button
                 type="submit"
                 size="lg"
-                className="w-full bg-gradient-creative hover:scale-105 transition-transform duration-300 text-white"
+                className="w-full bg-gradient-bold hover:scale-105 transition-transform duration-300 text-white"
               >
                 Отправить сообщение
                 <Icon name="Send" className="ml-2" size={20} />
@@ -118,7 +118,7 @@ const Contact = () => {
                     href={contact.href}
                     className="flex items-center group hover:scale-105 transition-transform duration-300"
                   >
-                    <div className="p-3 bg-gradient-creative rounded-lg mr-4 group-hover:animate-glow">
+                    <div className="p-3 bg-gradient-bold rounded-lg mr-4 group-hover:animate-glow">
                       <Icon
                         name={contact.icon}
                         className="text-white"
@@ -147,7 +147,7 @@ const Contact = () => {
                   <a
                     key={social.icon}
                     href={social.href}
-                    className={`p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all duration-300 ${social.color} hover:scale-110`}
+                    className={`p-3 bg-white/10 rounded-full hover:bg-bold-yellow/20 transition-all duration-300 ${social.color} hover:scale-110`}
                   >
                     <Icon name={social.icon} className="text-white" size={20} />
                   </a>
