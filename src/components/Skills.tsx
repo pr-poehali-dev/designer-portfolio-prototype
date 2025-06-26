@@ -6,34 +6,34 @@ const Skills = () => {
       title: "Дизайн инструменты",
       icon: "Palette",
       skills: [
-        { name: "Figma", level: 95, color: "bg-creative-purple" },
+        { name: "Figma", level: 95, color: "bg-creative-violet" },
         {
           name: "Adobe Creative Suite",
           level: 90,
-          color: "bg-creative-magenta",
+          color: "bg-creative-fuchsia",
         },
-        { name: "Sketch", level: 85, color: "bg-creative-blue" },
-        { name: "Blender", level: 80, color: "bg-creative-orange" },
+        { name: "Sketch", level: 85, color: "bg-creative-cyan" },
+        { name: "Blender", level: 80, color: "bg-creative-rose" },
       ],
     },
     {
       title: "Разработка",
       icon: "Code",
       skills: [
-        { name: "HTML/CSS", level: 90, color: "bg-creative-green" },
-        { name: "JavaScript", level: 85, color: "bg-creative-yellow" },
-        { name: "React", level: 80, color: "bg-creative-blue" },
-        { name: "Three.js", level: 75, color: "bg-creative-purple" },
+        { name: "HTML/CSS", level: 90, color: "bg-creative-emerald" },
+        { name: "JavaScript", level: 85, color: "bg-creative-amber" },
+        { name: "React", level: 80, color: "bg-creative-cyan" },
+        { name: "Three.js", level: 75, color: "bg-creative-indigo" },
       ],
     },
     {
       title: "Специализации",
       icon: "Target",
       skills: [
-        { name: "UI/UX Дизайн", level: 95, color: "bg-creative-magenta" },
-        { name: "Брендинг", level: 90, color: "bg-creative-orange" },
-        { name: "Моушн дизайн", level: 85, color: "bg-creative-purple" },
-        { name: "3D Моделирование", level: 80, color: "bg-creative-blue" },
+        { name: "UI/UX Дизайн", level: 95, color: "bg-creative-fuchsia" },
+        { name: "Брендинг", level: 90, color: "bg-creative-rose" },
+        { name: "Моушн дизайн", level: 85, color: "bg-creative-violet" },
+        { name: "3D Моделирование", level: 80, color: "bg-creative-cyan" },
       ],
     },
   ];
@@ -106,7 +106,7 @@ const Skills = () => {
             >
               <Icon
                 name={stat.icon}
-                className="text-creative-purple mb-4 mx-auto"
+                className="text-creative-violet mb-4 mx-auto"
                 size={32}
               />
               <div className="text-3xl font-bold gradient-text mb-2">

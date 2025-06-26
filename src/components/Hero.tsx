@@ -5,13 +5,13 @@ const Hero = () => {
   return (
     <section className="min-h-screen bg-gradient-hero flex items-center justify-center relative overflow-hidden">
       {/* Floating background elements */}
-      <div className="absolute top-20 left-20 w-32 h-32 bg-creative-purple/20 rounded-full blur-xl floating-element"></div>
+      <div className="absolute top-20 left-20 w-32 h-32 bg-creative-indigo/20 rounded-full blur-xl floating-element"></div>
       <div
-        className="absolute bottom-40 right-20 w-40 h-40 bg-creative-magenta/20 rounded-full blur-xl floating-element"
+        className="absolute bottom-40 right-20 w-40 h-40 bg-creative-fuchsia/20 rounded-full blur-xl floating-element"
         style={{ animationDelay: "2s" }}
       ></div>
       <div
-        className="absolute top-1/2 right-1/3 w-24 h-24 bg-creative-orange/20 rounded-full blur-xl floating-element"
+        className="absolute top-1/2 right-1/3 w-24 h-24 bg-creative-rose/20 rounded-full blur-xl floating-element"
         style={{ animationDelay: "4s" }}
       ></div>
 
@@ -49,20 +49,24 @@ const Hero = () => {
             {
               icon: "Monitor",
               label: "Веб-дизайн",
-              color: "text-creative-blue",
+              color: "text-creative-cyan",
             },
             {
               icon: "Palette",
               label: "Графический",
-              color: "text-creative-purple",
+              color: "text-creative-violet",
             },
-            { icon: "Play", label: "Моушн", color: "text-creative-magenta" },
+            { icon: "Play", label: "Моушн", color: "text-creative-fuchsia" },
             {
               icon: "Package",
               label: "Продукты",
-              color: "text-creative-orange",
+              color: "text-creative-rose",
             },
-            { icon: "Home", label: "Интерьеры", color: "text-creative-green" },
+            {
+              icon: "Home",
+              label: "Интерьеры",
+              color: "text-creative-emerald",
+            },
           ].map((skill, index) => (
             <div
               key={skill.label}

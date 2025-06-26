@@ -96,7 +96,7 @@ const ProjectsGallery = () => {
               className={`transition-all duration-300 ${
                 activeCategory === category.id
                   ? "bg-gradient-creative text-white"
-                  : "hover:border-creative-purple hover:text-creative-purple"
+                  : "hover:border-creative-violet hover:text-creative-violet"
               }`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >

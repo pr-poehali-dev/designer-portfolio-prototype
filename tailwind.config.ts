@@ -62,22 +62,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Creative portfolio colors
+        // Designer portfolio colors
         creative: {
-          purple: "#9b87f5",
-          magenta: "#D946EF",
-          orange: "#F97316",
-          blue: "#0EA5E9",
-          green: "#10B981",
-          yellow: "#F59E0B",
+          indigo: "#6366F1",
+          violet: "#8B5CF6",
+          fuchsia: "#D946EF",
+          rose: "#F43F5E",
+          emerald: "#10B981",
+          amber: "#F59E0B",
+          cyan: "#06B6D4",
+          slate: "#64748B",
         },
       },
       backgroundImage: {
         "gradient-creative":
-          "linear-gradient(135deg, #9b87f5 0%, #D946EF 50%, #F97316 100%)",
-        "gradient-hero": "linear-gradient(45deg, #1A1F2C 0%, #9b87f5 100%)",
+          "linear-gradient(135deg, #6366F1 0%, #8B5CF6 35%, #D946EF 70%, #F43F5E 100%)",
+        "gradient-hero":
+          "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #334155 100%)",
         "gradient-card":
-          "linear-gradient(135deg, rgba(155,135,245,0.1) 0%, rgba(217,70,239,0.1) 100%)",
+          "linear-gradient(135deg, rgba(99,102,241,0.1) 0%, rgba(139,92,246,0.1) 50%, rgba(217,70,239,0.1) 100%)",
+        "gradient-accent": "linear-gradient(90deg, #06B6D4 0%, #10B981 100%)",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
